@@ -10,7 +10,11 @@ namespace Jenkins
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Add meg a neved");
+            String nev = "";
+            nev = Console.ReadLine();
+            Console.WriteLine("{0} te kis homokos",nev);
+            Console.ReadKey();
         }
     }
 }
